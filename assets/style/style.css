@@ -107,3 +107,14 @@ main{
 	transform: translateX(0);
 	transform: translate3d(0, 0, 0);
 }
+
+.main img{
+    width: 250px;
+    padding: 20px
+}
+
+.women-shop{
+    width: 100%;
+    margin: auto;
+    padding-top: 10vh;
+}

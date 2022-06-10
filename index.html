@@ -16,7 +16,7 @@
     <header>
         <container class="header">
             <div class="left-header">
-                <button class="shop">SHOP</button>
+                <button class="shop" onclick="reload()">SHOP</button>
             </div>
             <div class="right-header">
                 <button class="account">MY ACCOUNT</button>
@@ -27,10 +27,10 @@
     </header>
     <main>
         <div class="left-navbar">
-            <button class="women">WOMEN</button>
-            <button class="men">MEN</button>
-            <button class="shoes">SHOES</button>
-            <button class="brand">BRAND</button>
+            <button class="women" onclick="removerMain(), getWomen()">WOMEN</button>
+            <button class="men" onclick="removerMain()">MEN</button>
+            <button class="shoes" onclick="removerMain()">SHOES</button>
+            <button class="brand" onclick="removerMain()">BRAND</button>
             <div class="social-media">
              <button><i class="fa-brands fa-twitter"></i></button>
              <button><i class="fa-brands fa-instagram"></i></button>
@@ -56,5 +56,6 @@
       </container>
     </main>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
