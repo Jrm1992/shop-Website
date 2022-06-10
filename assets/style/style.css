@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-* button{
+.btn-custom{
     background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
@@ -16,7 +16,7 @@
     width: auto;
 }
 
-* button:hover{
+.btn-custom:hover{
     color: #e67e34;
 }
 
@@ -110,11 +110,43 @@ main{
 
 .main img{
     width: 250px;
-    padding: 20px
+    margin-bottom: 20px;
 }
 
 .women-shop{
-    width: 100%;
-    margin: auto;
+    position: absolute;
+    padding-left: 50px;
     padding-top: 10vh;
+}
+
+.show{
+    display: block !important;
+}
+
+.addCart{
+    display: none;
+    color: white;
+    padding: 3px;
+    font-size: 14px;
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    text-align: center;
+    border: 1px solid white;
+    background-color: #e67e34;
+    border-radius: 12px;
+}
+
+.item{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.item img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
