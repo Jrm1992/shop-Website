@@ -115,7 +115,19 @@ main{
 
 .women-shop{
     position: absolute;
-    padding-left: 50px;
+    margin-left: 50px !important;
+    padding-top: 10vh;
+}
+
+.men-shop{
+    position: absolute;
+    margin-left: 50px !important;
+    padding-top: 10vh;
+}
+
+.shoes-shop{
+    position: absolute;
+    margin-left: 50px !important;
     padding-top: 10vh;
 }
 
