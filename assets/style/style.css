@@ -1,3 +1,17 @@
+@media screen and (max-width: 600px) {
+    main {
+      flex-direction: column-reverse;
+    }
+    .left-navbar { 
+        display:flex;   
+        flex-direction: column;
+        width: 90px;
+        height: 200px;
+        justify-content: space-between;
+        margin: auto!important;
+    }
+  }
+
 *{
     font-family: 'Montserrat', sans-serif;
     background-color: aliceblue;
@@ -5,6 +19,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 
 .btn-custom{
     background-color: Transparent;
@@ -50,6 +65,7 @@
 }
 
 .left-navbar{
+    position: relative;
     display: flex;
     float: left;
     flex-direction: column;
@@ -71,9 +87,8 @@
 #carousel{
     display: flex;
     justify-content: space-around;
-    width: 800px;
-    margin-left: 50px;
-    padding-left: 20%;
+    width: 80vw;
+    margin: auto;
 }
 
 main{
@@ -114,20 +129,17 @@ main{
 }
 
 .women-shop{
-    position: absolute;
-    margin-left: 50px !important;
+    margin: 0 10vw !important;
     padding-top: 10vh;
 }
 
 .men-shop{
-    position: absolute;
-    margin-left: 50px !important;
+    margin: 0 10vw !important;
     padding-top: 10vh;
 }
 
 .shoes-shop{
-    position: absolute;
-    margin-left: 50px !important;
+    margin: 0 10vw !important;
     padding-top: 10vh;
 }
 

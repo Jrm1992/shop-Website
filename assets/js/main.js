@@ -32,6 +32,10 @@ function getWomen() {
             addCart.classList.add('show')
             img.style.opacity = 0.5
         })
+        addCart.addEventListener("mouseenter", () => {
+            addCart.classList.add('show')
+            img.style.opacity = 0.5
+        })
         img.addEventListener("mouseout", () => {
             addCart.classList.remove('show')
             img.style.opacity = 1
@@ -63,6 +67,10 @@ function getMen() {
             addCart.classList.add('show')
             img.style.opacity = 0.5
         })
+        addCart.addEventListener("mouseenter", () => {
+            addCart.classList.add('show')
+            img.style.opacity = 0.5
+        })
         img.addEventListener("mouseout", () => {
             addCart.classList.remove('show')
             img.style.opacity = 1
@@ -91,6 +99,10 @@ function getShoes() {
         addCart.className = 'addCart'
         item.className = 'item col-12 col-md-4 col-sm-6'
         img.addEventListener("mouseenter", () => {
+            addCart.classList.add('show')
+            img.style.opacity = 0.5
+        })
+        addCart.addEventListener("mouseenter", () => {
             addCart.classList.add('show')
             img.style.opacity = 0.5
         })
